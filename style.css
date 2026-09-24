@@ -141,7 +141,7 @@ body {
 .read,
 .lamp,
 .radio {
-    position: fixed;
+    position: absolute;
     border: 2px solid black;
     border-radius: 50%;
     padding: 8px;
@@ -174,7 +174,7 @@ body {
 
 .lamp {
     top: 22%;
-    left: 20%;
+    left: 13%;
 }
 
 .radio {
@@ -395,6 +395,17 @@ body.loading .bg2 {
     font-weight: bolder;
 }
 
+.lastline {
+    position: absolute;
+    top: 85vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    color: rgba(255, 255, 255, 0.458);
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
 @media (min-width: 1024px) {
     body {
         background: url("desktop_off.png") no-repeat;
@@ -423,5 +434,13 @@ body.loading .bg2 {
     .radio_on {
         top: 63% !important;
         left: 68% !important;
+    }
+
+    .lastline {
+        top: 93vh;
+        left: 90vw;
+        transform: none;
+        color: rgba(255, 255, 255, 0.585);
+        font-size: 1rem;
     }
 }
