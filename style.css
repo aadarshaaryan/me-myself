@@ -408,6 +408,7 @@ body.loading .bg2 {
     color: rgba(255, 255, 255, 0.458);
     font-size: 0.8rem;
     font-weight: bolder;
+    font-style: "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
 }
 
 .lastline a{
