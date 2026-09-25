@@ -395,6 +395,10 @@ body.loading .bg2 {
     font-weight: bolder;
 }
 
+.lastline, .lastline a {
+  transition: all 0.3s ease;
+}
+
 .lastline {
     position: absolute;
     top: 85vh;
@@ -411,9 +415,10 @@ body.loading .bg2 {
     text-decoration: none;
 }
 
-.lastline:hover{
-    text-decoration: underline;
-    color: white;
+.lastline:hover {
+  text-decoration: underline;
+  color: white;
+  text-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
 @media (min-width: 1024px) {
