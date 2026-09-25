@@ -406,6 +406,16 @@ body.loading .bg2 {
     font-weight: bolder;
 }
 
+.lastline a{
+    color: rgba(255, 255, 255, 0.458);
+    text-decoration: none;
+}
+
+.lastline:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 @media (min-width: 1024px) {
     body {
         background: url("desktop_off.png") no-repeat;
